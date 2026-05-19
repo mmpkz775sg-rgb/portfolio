@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Créatif & Freelance</title>
+  <meta name="description" content="Portfolio de designer et illustrateur freelance — identité visuelle, logos, carte de visite et goodies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- *** CURSOR FOLLOWER *** -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- *** NAV *** -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">
+      <span class="nav-logo-symbol">+</span>
+      <span>Créatif</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#hero" id="nav-about">À propos</a></li>
+      <li><a href="#identity" id="nav-identity">Identité</a></li>
+      <li><a href="#card" id="nav-card">Carte</a></li>
+      <li><a href="#goodies" id="nav-goodies">Goodies</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta" id="nav-contact-btn">Me contacter</a>
+  </nav>
+
+  <!-- *** HERO / PRÉSENTATION *** -->
+  <section class="section hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow" id="hero-eyebrow">
+          <span class="dot"></span> Disponible pour de nouveaux projets
+        </p>
+        <h1 class="hero-title" id="hero-title">
+          Je crée des identités
+          <em>qui parlent</em><br />
+          avant même de lire.
+        </h1>
+        <p class="hero-desc" id="hero-desc">
+          Designer graphique &amp; illustrateur freelance, je transforme vos idées en expériences visuelles mémorables — logos, identités de marque, illustrations et supports imprimés qui capturent l'essence de ce que vous êtes.
+        </p>
+        <div class="hero-tags" id="hero-tags">
+          <span class="tag">Direction artistique</span>
+          <span class="tag">Branding</span>
+          <span class="tag">Illustration</span>
+          <span class="tag">Print</span>
+        </div>
+        <div class="hero-cta-group" id="hero-cta-group">
+          <a href="#identity" class="btn btn-primary" id="btn-discover">Découvrir mon travail</a>
+          <a href="#contact" class="btn btn-ghost" id="btn-contact">Travaillons ensemble →</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap" id="hero-image-wrap">
+        <div class="hero-image-frame">
+          <img src="assets/jassir-jonis_portrait.jpg" alt="Portrait créatif" class="hero-img" id="hero-img" />
+          <div class="hero-badge" id="hero-badge">
+            <span class="badge-num">+3</span>
+            <span class="badge-text">ans<br/>d'expérience</span>
+          </div>
+        </div>
+        <div class="hero-stat-card" id="hero-stat">
+          <span class="stat-num">42</span>
+          <span class="stat-label">Projets livrés</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint" id="scroll-hint">
+      <span>Scroller</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- *** IDENTITÉ VISUELLE *** -->
+  <section class="section identity" id="identity">
+    <div class="section-header" id="identity-header">
+      <p class="section-eyebrow">02 — Identité visuelle</p>
+      <h2 class="section-title">Mon univers<br /><em>graphique</em></h2>
+      <p class="section-subtitle">De l'esquisse au pixel parfait, chaque projet commence par une exploration profonde de votre ADN de marque.</p>
+    </div>
+
+    <!-- *** Présentation métier *** -->
+    <div class="identity-intro" id="identity-intro">
+      <div class="identity-intro-text">
+        <h3>Ma démarche créative</h3>
+        <p>Je crois qu'un bon design raconte une histoire. Mon processus allie <strong>recherche approfondie</strong>, exploration typographique et une sensibilité illustrative unique pour construire des identités durables.</p>
+        <ul class="process-list">
+          <li><span class="process-num">01</span><span>Écoute &amp; briefing</span></li>
+          <li><span class="process-num">02</span><span>Recherche &amp; moodboard</span></li>
+          <li><span class="process-num">03</span><span>Esquisse &amp; concepts</span></li>
+          <li><span class="process-num">04</span><span>Raffinement &amp; livraison</span></li>
+        </ul>
+      </div>
+      <div class="identity-intro-img">
+        <img src="assets/inspiration-search.jpg" alt="Recherche de logos — sketchbook" id="logo-research-img" />
+        <div class="img-label">Carnet de recherches</div>
+      </div>
+    </div>
+
+    <!-- *** Mots-clés crayonnés *** -->
+    <div class="keywords-cloud" id="keywords-cloud">
+      <span class="kw kw-lg" style="--r: -4deg; --x: 0; --y: 0">Créativité</span>
+      <span class="kw kw-sm" style="--r: 3deg; --x: 1; --y: 0">Minimalisme</span>
+      <span class="kw kw-md" style="--r: -2deg; --x: 0; --y: 1">Authenticité</span>
+      <span class="kw kw-xl" style="--r: 5deg; --x: 1; --y: 1">Identité</span>
+      <span class="kw kw-sm" style="--r: -6deg; --x: 0; --y: 0">Typographie</span>
+      <span class="kw kw-md" style="--r: 2deg; --x: 1; --y: 0">Cohérence</span>
+      <span class="kw kw-lg" style="--r: -3deg; --x: 0; --y: 1">Storytelling</span>
+      <span class="kw kw-sm" style="--r: 7deg; --x: 1; --y: 1">Couleur</span>
+      <span class="kw kw-md" style="--r: -1deg; --x: 0; --y: 0">Impact</span>
+    </div>
+
+    <!-- *** Collection de logos *** -->
+    <div class="logo-showcase" id="logo-showcase">
+      <div class="logo-showcase-label">Explorations logos</div>
+      <div class="logo-img-wrap" id="research-trigger">
+        <img src="assets/logo_collection.png" alt="Collection de logos" id="logo-collection-img" />
+        <div class="logo-overlay">
+          <span>Voir les recherches</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel des recherches -->
+    <div class="research-modal" id="research-modal">
+      <div class="research-modal-content">
+        <button class="research-close" id="research-close">✕</button>
+        
+        <div class="research-carousel">
+          <div class="carousel-track">
+            <img src="assets/tote-bag.jpg" alt="Recherche 1" class="carousel-slide" />
+            <img src="assets/sticker.jpg" alt="Recherche 2" class="carousel-slide" />
+            <img src="assets/carnet.jpg" alt="Recherche 3" class="carousel-slide" />
+            <img src="assets/pins.jpg" alt="Recherche 4" class="carousel-slide" />
+            <img src="assets/t-shirt.jpg" alt="Recherche 5" class="carousel-slide" />
+          </div>
+          
+          <button class="carousel-btn carousel-prev" id="carousel-prev">←</button>
+          <button class="carousel-btn carousel-next" id="carousel-next">→</button>
+          
+          <div class="carousel-counter">
+            <span id="carousel-current">1</span> / <span id="carousel-total">5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Palette & typographie -->
+    <div class="brand-tokens" id="brand-tokens">
+      <div class="token-block">
+        <p class="token-label">Palette</p>
+        <div class="palette">
+          <div class="swatch" style="--c: #1a1a2e;" title="Nuit profonde"></div>
+          <div class="swatch" style="--c: #c9a84c;" title="Or doux"></div>
+          <div class="swatch" style="--c: #f5ede0;" title="Crème"></div>
+          <div class="swatch" style="--c: #7c5cbf;" title="Mauve"></div>
+          <div class="swatch" style="--c: #e8d5c4;" title="Sable"></div>
+        </div>
+      </div>
+      <div class="token-block">
+        <p class="token-label">Typographies</p>
+        <div class="type-samples">
+          <p class="type-serif">Playfair Display — Titres</p>
+          <p class="type-sans">Inter — Corps de texte</p>
+          <p class="type-mono">Space Mono — Accents</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *** CARTE DE VISITE *** -->
+  <section class="section card-section" id="card">
+    <div class="section-header" id="card-header">
+      <p class="section-eyebrow">03 — Carte de visite</p>
+      <h2 class="section-title">La première<br /><em>impression</em></h2>
+      <p class="section-subtitle">Chaque détail compte. Ma carte de visite est le reflet de mon identité — sobre, impactante, mémorable.</p>
+    </div>
+
+    <div class="card-showcase" id="card-showcase">
+      <div class="card-3d-scene" id="card-3d-scene">
+        <div class="card-3d" id="card-3d">
+          <div class="card-face card-front">
+            <img src="assets/business_card.png" alt="Carte de visite recto" id="business-card-front" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card-details" id="card-details">
+        <h3>Specs techniques</h3>
+        <ul class="card-specs">
+          <li>
+            <span class="spec-icon">◈</span>
+            <div>
+              <strong>Format</strong>
+              <span>85 × 55 mm</span>
+            </div>
+          </li>
+          <li>
+            <span class="spec-icon">◈</span>
+            <div>
+              <strong>Papier</strong>
+              <span>Kraft 400g + vernis sélectif</span>
+            </div>
+          </li>
+          <li>
+            <span class="spec-icon">◈</span>
+            <div>
+              <strong>Finition</strong>
+              <span>Dorure à chaud dorée</span>
+            </div>
+          </li>
+          <li>
+            <span class="spec-icon">◈</span>
+            <div>
+              <strong>Impression</strong>
+              <span>Offset 4 couleurs</span>
+            </div>
+          </li>
+        </ul>
+        <p class="card-note">"Une carte de visite est plus qu'un morceau de papier — c'est une poignée de main silencieuse."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- *** GOODIES *** -->
+  <section class="section goodies" id="goodies">
+    <div class="section-header" id="goodies-header">
+      <p class="section-eyebrow">04 — Goodies</p>
+      <h2 class="section-title">La marque<br /><em>dans le quotidien</em></h2>
+      <p class="section-subtitle">Des objets pensés avec soin pour prolonger l'identité visuelle bien au-delà de l'écran.</p>
+    </div>
+
+    <div class="goodies-grid" id="goodies-grid">
+      <div class="goodie-hero" id="goodie-hero">
+        <img src="assets/tote-bag.jpg" alt="Tote bag" class="goodie-img goodie-img-active" />
+        <img src="assets/sticker.jpg" alt="Sticker pack" class="goodie-img" />
+        <img src="assets/carnet.jpg" alt="Carnet" class="goodie-img" />
+        <img src="assets/pins.jpg" alt="Pin's émaillé" class="goodie-img" />
+        <img src="assets/t-shirt.jpg" alt="T-shirt" class="goodie-img" />
+        <div class="goodies-overlay">
+          <span>Collection complète</span>
+        </div>
+      </div>
+      <div class="goodies-items" id="goodies-items">
+        <div class="goodie-item" id="goodie-tote">
+          <span class="goodie-emoji">👜</span>
+          <div>
+            <strong>Tote bag</strong>
+            <p>Coton bio sérigraphié, réutilisable et stylé.</p>
+          </div>
+        </div>
+        <div class="goodie-item" id="goodie-stickers">
+          <span class="goodie-emoji">🏷️</span>
+          <div>
+            <strong>Sticker pack</strong>
+            <p>Vinyle découpé, résistant à l'eau.</p>
+          </div>
+        </div>
+        <div class="goodie-item" id="goodie-notebook">
+          <span class="goodie-emoji">📓</span>
+          <div>
+            <strong>Carnet</strong>
+            <p>Couverture rigide avec foil argenté.</p>
+          </div>
+        </div>
+        <div class="goodie-item" id="goodie-pin">
+          <span class="goodie-emoji">📌</span>
+          <div>
+            <strong>Pin's émaillé</strong>
+            <p>Alliage de zinc, émail dur double face.</p>
+          </div>
+        </div>
+        <div class="goodie-item" id="goodie-tshirt">
+          <span class="goodie-emoji">👕</span>
+          <div>
+            <strong>T-shirt</strong>
+            <p>Coton premium, sérigraphie 3 couleurs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *** CONTACT *** -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner" id="contact-inner">
+      <p class="section-eyebrow">05 — Contact</p>
+      <h2 class="contact-title">Parlons de<br /><em>votre projet.</em></h2>
+      <p class="contact-desc">Une idée ? Un projet ? Une collaboration ? Je suis là pour donner vie à votre vision.</p>
+      <a href="mailto:hello@creative.fr" class="btn btn-primary btn-large" id="btn-email">hello@creative.fr</a>
+      <div class="socials" id="socials">
+        <a href="#" class="social-link" id="social-behance">Behance</a>
+        <span class="social-sep">·</span>
+        <a href="#" class="social-link" id="social-instagram">Instagram</a>
+        <span class="social-sep">·</span>
+        <a href="#" class="social-link" id="social-linkedin">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- *** FOOTER *** -->
+  <footer class="footer" id="footer">
+    <p>© 2026 — Créatif Freelance. Fait avec ❤️ & beaucoup de café.</p>
+  </footer>
+
+</body>
+</html>
